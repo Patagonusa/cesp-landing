@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>California Energy Savings Program | Free Home Energy Assessment</title>
+  <meta name="description" content="California Energy Savings Program — $500 Million in government funding for home energy upgrades. Free assessment to see if you qualify for solar, HVAC, insulation, windows & more. Call (888) 480-4286.">
+  <link rel="canonical" href="https://caenergysavings.com/">
+  <link rel="alternate" hreflang="en" href="https://caenergysavings.com/">
+  <link rel="alternate" hreflang="es" href="https://caenergysavings.com/es.html">
+  <meta property="og:title" content="California Energy Savings Program | Free Home Energy Assessment">
+  <meta property="og:description" content="$500 Million in government funding for energy upgrades. Free assessment — solar, HVAC, insulation, windows & more. Zero upfront cost for qualified homeowners.">
+  <meta property="og:url" content="https://caenergysavings.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://caenergysavings.com/images/hero-bg.jpg">
+  <meta property="og:site_name" content="California Energy Savings Program">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="California Energy Savings Program | Free Home Energy Assessment">
+  <meta name="twitter:description" content="$500M government funding for energy upgrades. Free assessment for California homeowners.">
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "California Energy Savings Program",
+    "alternateName": "Patagon Consulting Inc.",
+    "url": "https://caenergysavings.com",
+    "telephone": "+1-888-480-4286",
+    "email": "info@caenergysavings.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "18546 Sherman Way, Suite 103",
+      "addressLocality": "Reseda",
+      "addressRegion": "CA",
+      "postalCode": "91335",
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "California"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Energy Efficiency Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Solar Panel Installation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "HVAC System Upgrades"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Home Insulation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Energy-Efficient Windows"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tankless Water Heaters"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Roofing"}}
+      ]
+    },
+    "priceRange": "Government-Funded",
+    "description": "California Energy Savings Program helps homeowners access $500 million in government funding for energy-efficient home upgrades. Free assessment, zero upfront costs for qualified homeowners. CSLB License #1135440."
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    :root {
+      --primary: #064e3b;
+      --primary-light: #065f46;
+      --green: #059669;
+      --green-hover: #047857;
+      --green-light: #10b981;
+      --emerald: #34d399;
+      --teal: #14b8a6;
+      --amber: #f59e0b;
+      --amber-hover: #d97706;
+      --blue: #0284c7;
+      --blue-light: #38bdf8;
+      --text: #1e293b;
+      --text-light: #64748b;
+      --bg: #f0fdf4;
+      --bg-alt: #f8fafc;
+      --white: #fff;
+      --shadow: 0 4px 20px rgba(6,78,59,0.08);
+      --shadow-lg: 0 10px 40px rgba(6,78,59,0.15);
+      --radius: 12px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', -apple-system, sans-serif; color: var(--text); line-height: 1.6; background: var(--bg-alt); }
+
+    /* HEADER */
+    .header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: var(--primary);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    }
+    .header-banner {
+      background: linear-gradient(90deg, var(--green), var(--teal));
+      color: var(--white); text-align: center; padding: 8px 16px; font-size: 14px;
+    }
+    .header-banner strong { font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+    .header-inner {
+      max-width: 1100px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 10px 20px;
+    }
+    .header-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--white); }
+    .header-logo img { height: 48px; border-radius: 8px; }
+    .header-logo span { font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 16px; line-height: 1.2; }
+    .header-right { display: flex; align-items: center; gap: 16px; }
+    .header-phone {
+      display: flex; align-items: center; gap: 8px;
+      color: var(--emerald); text-decoration: none; font-weight: 700; font-size: 16px;
+      transition: color 0.2s;
+    }
+    .header-phone:hover { color: #6ee7b7; }
+    .header-phone i { font-size: 18px; }
+    .lang-switch {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 14px; border-radius: 8px;
+      background: rgba(255,255,255,0.1); color: var(--white);
+      font-size: 13px; font-weight: 600; text-decoration: none;
+      transition: all 0.2s; border: 1px solid rgba(255,255,255,0.2);
+    }
+    .lang-switch:hover { background: rgba(255,255,255,0.2); }
+    .header-cta {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 10px 20px; border-radius: 8px;
+      background: var(--green); color: var(--white);
+      font-size: 14px; font-weight: 700; text-decoration: none;
+      transition: all 0.2s;
+    }
+    .header-cta:hover { background: var(--green-hover); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--primary) 0%, #065f46 50%, #047857 100%);
+      padding: 100px 20px 60px;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: url('images/hero-bg.jpg') center/cover;
+      opacity: 0.15;
+    }
+    .hero-inner {
+      position: relative; z-index: 1;
+      max-width: 1100px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 420px; gap: 48px; align-items: center;
+    }
+    .hero-text { color: var(--white); }
+    .hero-badges { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(5,150,105,0.3); border: 1px solid rgba(52,211,153,0.3);
+      padding: 6px 14px; border-radius: 50px; font-size: 13px; font-weight: 600;
+      color: var(--emerald);
+    }
+    .hero-badge i { font-size: 14px; }
+    .hero h1 {
+      font-family: 'Poppins', sans-serif; font-weight: 900;
+      font-size: 38px; line-height: 1.15; margin-bottom: 16px;
+    }
+    .hero h1 span { color: var(--emerald); }
+    .hero-sub {
+      font-size: 18px; color: rgba(255,255,255,0.8); margin-bottom: 28px;
+      line-height: 1.6; max-width: 520px;
+    }
+    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: 10px; font-size: 16px; font-weight: 700;
+      text-decoration: none; transition: all 0.2s; border: none; cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-green { background: var(--green); color: var(--white); }
+    .btn-green:hover { background: var(--green-hover); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(5,150,105,0.4); }
+    .btn-amber { background: var(--amber); color: var(--primary); }
+    .btn-amber:hover { background: var(--amber-hover); transform: translateY(-2px); }
+    .btn-outline-white { background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,0.4); }
+    .btn-outline-white:hover { border-color: #fff; transform: translateY(-2px); }
+    .btn-white { background: var(--white); color: var(--green); }
+    .btn-white:hover { background: #f0fdf4; transform: translateY(-2px); }
+
+    /* FORM */
+    .form-card {
+      background: var(--white); border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+    .form-top {
+      background: linear-gradient(135deg, var(--green), var(--teal));
+      padding: 18px 24px; text-align: center;
+    }
+    .form-top h2 { font-size: 19px; font-weight: 800; color: var(--white); margin-bottom: 2px; }
+    .form-top p { font-size: 13px; color: rgba(255,255,255,0.9); }
+    .progress-bar { height: 4px; background: rgba(255,255,255,0.25); border-radius: 2px; margin-top: 14px; }
+    .progress-fill { height: 100%; background: var(--white); border-radius: 2px; transition: width 0.4s ease; width: 20%; }
+    .form-body { padding: 28px 24px; }
+    .step-indicator { font-size: 12px; color: var(--text-light); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .step-question { font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .step-helper { font-size: 14px; color: var(--text-light); margin-bottom: 20px; }
+
+    .form-input {
+      width: 100%; padding: 14px 16px; font-size: 16px;
+      border: 2px solid #e5e7eb; border-radius: 10px;
+      font-family: inherit; transition: border-color 0.2s;
+      -webkit-appearance: none; appearance: none;
+      background: var(--white);
+    }
+    .form-input:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px rgba(5,150,105,0.1); }
+    .form-input.error { border-color: #ef4444; }
+    .error-msg { color: #ef4444; font-size: 13px; margin-top: 6px; display: none; }
+
+    .option-grid { display: grid; gap: 10px; }
+    .option-grid.cols-2 { grid-template-columns: 1fr 1fr; }
+    .option-btn {
+      padding: 14px 16px; border: 2px solid #e5e7eb; border-radius: 10px;
+      background: var(--white); cursor: pointer; text-align: center;
+      font-size: 14px; font-weight: 600; color: var(--text);
+      transition: all 0.2s; user-select: none;
+    }
+    .option-btn:hover { border-color: var(--green); background: #f0fdf4; }
+    .option-btn.selected { border-color: var(--green); background: #f0fdf4; color: var(--green); }
+    .option-btn i { font-size: 22px; display: block; margin-bottom: 4px; }
+
+    .service-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .service-chip {
+      padding: 12px 14px; border: 2px solid #e5e7eb; border-radius: 10px;
+      background: var(--white); cursor: pointer; text-align: left;
+      font-size: 14px; font-weight: 500; color: var(--text);
+      transition: all 0.2s; user-select: none;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .service-chip:hover { border-color: var(--green); }
+    .service-chip.selected { border-color: var(--green); background: #f0fdf4; color: var(--green); }
+    .service-chip .chip-icon { font-size: 18px; color: var(--text-light); transition: color 0.2s; }
+    .service-chip.selected .chip-icon { color: var(--green); }
+    .service-chip .chip-check {
+      width: 20px; height: 20px; border: 2px solid #d1d5db; border-radius: 4px;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s; flex-shrink: 0; margin-left: auto;
+    }
+    .service-chip.selected .chip-check { background: var(--green); border-color: var(--green); }
+    .service-chip.selected .chip-check::after { content: '\2713'; color: white; font-size: 12px; font-weight: 700; }
+
+    .form-actions { display: flex; gap: 12px; margin-top: 24px; }
+    .btn-back {
+      padding: 14px 20px; border-radius: 10px; font-size: 15px; font-weight: 600;
+      border: 2px solid #e5e7eb; background: var(--white); color: var(--text-light);
+      cursor: pointer; transition: all 0.2s; font-family: inherit;
+    }
+    .btn-back:hover { border-color: #d1d5db; color: var(--text); }
+    .btn-back i { margin-right: 4px; }
+    .btn-next {
+      flex: 1; padding: 14px 24px; border-radius: 10px; font-size: 16px; font-weight: 700;
+      border: none; background: var(--green); color: var(--white);
+      cursor: pointer; transition: all 0.2s; font-family: inherit;
+    }
+    .btn-next:hover { background: var(--green-hover); transform: translateY(-1px); }
+    .btn-next i { margin-left: 6px; }
+    .btn-submit {
+      width: 100%; padding: 16px; border-radius: 10px; font-size: 17px; font-weight: 800;
+      border: none; background: var(--green); color: var(--white);
+      cursor: pointer; transition: all 0.2s; margin-top: 20px; font-family: inherit;
+    }
+    .btn-submit:hover { background: var(--green-hover); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(5,150,105,0.3); }
+    .btn-submit:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: none; }
+
+    .form-step { display: none; }
+    .form-step.active { display: block; }
+
+    .form-success { display: none; text-align: center; padding: 32px 24px; }
+    .form-success .success-check {
+      width: 68px; height: 68px; border-radius: 50%;
+      background: var(--green); color: white;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 16px;
+    }
+    .form-success .success-check i { font-size: 32px; }
+    .form-success h3 { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+    .form-success p { color: var(--text-light); font-size: 15px; margin-bottom: 20px; line-height: 1.6; }
+    .success-phone {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 28px; border-radius: 10px; font-size: 16px; font-weight: 700;
+      text-decoration: none; color: var(--white); background: var(--green);
+      transition: all 0.2s;
+    }
+    .success-phone:hover { background: var(--green-hover); }
+    .success-phone i { font-size: 18px; }
+
+    /* TCPA Consent */
+    .consent { display: flex; gap: 10px; align-items: flex-start; margin-top: 14px; }
+    .consent input { margin-top: 3px; width: 18px; height: 18px; accent-color: var(--green); flex-shrink: 0; }
+    .consent label { font-size: 11px; color: var(--text-light); line-height: 1.5; }
+    .consent a { color: var(--green); }
+    .tcpa-disclosure { font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 10px; padding: 10px; background: #f8fafc; border-radius: 8px; border: 1px solid #e5e7eb; }
+
+    .name-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+
+    /* TRUST STRIP */
+    .trust-strip { background: var(--white); padding: 24px 20px; border-bottom: 1px solid #e5e7eb; }
+    .trust-inner {
+      max-width: 800px; margin: 0 auto;
+      display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;
+    }
+    .trust-item { display: flex; align-items: center; gap: 10px; }
+    .trust-item .t-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center; font-size: 20px;
+    }
+    .trust-item .t-icon.green { background: #f0fdf4; color: var(--green); }
+    .trust-item .t-icon.amber { background: #fef3c7; color: #d97706; }
+    .trust-item .t-icon.blue { background: #f0f9ff; color: var(--blue); }
+    .trust-item .t-label { font-size: 14px; font-weight: 700; color: var(--text); }
+    .trust-item .t-sub { font-size: 12px; color: var(--text-light); }
+
+    /* SECTIONS */
+    section { padding: 64px 20px; }
+    .section-inner { max-width: 1000px; margin: 0 auto; }
+    .section-tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #f0fdf4; color: var(--green); font-size: 13px; font-weight: 700;
+      padding: 6px 14px; border-radius: 50px; margin-bottom: 12px;
+      text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .section-tag i { font-size: 14px; }
+    .section-title {
+      font-family: 'Poppins', sans-serif; font-weight: 800;
+      font-size: 30px; margin-bottom: 12px; line-height: 1.2;
+    }
+    .section-subtitle { color: var(--text-light); font-size: 16px; margin-bottom: 40px; max-width: 600px; }
+    .text-center { text-align: center; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+
+    /* FUNDING BANNER */
+    .funding-banner {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      padding: 40px 20px; text-align: center;
+      border-bottom: 3px solid var(--amber);
+    }
+    .funding-inner { max-width: 800px; margin: 0 auto; }
+    .funding-amount {
+      font-family: 'Poppins', sans-serif; font-weight: 900;
+      font-size: 48px; color: var(--primary); margin-bottom: 8px;
+    }
+    .funding-label { font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 4px; }
+    .funding-sub { font-size: 15px; color: #92400e; }
+
+    /* VALUE PROPS */
+    .values-section { background: var(--white); }
+    .values-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .value-card {
+      background: var(--bg); border-radius: var(--radius); padding: 28px;
+      border: 1px solid #d1fae5; transition: box-shadow 0.2s;
+    }
+    .value-card:hover { box-shadow: var(--shadow); }
+    .value-card .v-icon {
+      width: 48px; height: 48px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; margin-bottom: 14px;
+    }
+    .value-card .v-icon.green { background: #d1fae5; color: var(--green); }
+    .value-card .v-icon.amber { background: #fef3c7; color: #d97706; }
+    .value-card .v-icon.blue { background: #e0f2fe; color: var(--blue); }
+    .value-card .v-icon.teal { background: #ccfbf1; color: var(--teal); }
+    .value-card h3 { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+    .value-card p { font-size: 14px; color: var(--text-light); line-height: 1.7; }
+
+    /* SERVICES */
+    .services-section { background: var(--bg-alt); }
+    .services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .svc-card {
+      background: var(--white); border-radius: var(--radius); padding: 24px; text-align: center;
+      border: 1px solid #e5e7eb; transition: all 0.2s;
+    }
+    .svc-card:hover { box-shadow: var(--shadow); transform: translateY(-4px); }
+    .svc-card .svc-icon {
+      width: 56px; height: 56px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px; margin: 0 auto 14px; background: #f0fdf4; color: var(--green);
+    }
+    .svc-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+    .svc-card p { font-size: 13px; color: var(--text-light); line-height: 1.6; }
+
+    /* ABOUT */
+    .about-section { background: var(--white); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+    .about-img { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-lg); }
+    .about-img img { width: 100%; height: 360px; object-fit: cover; display: block; }
+    .about-highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 24px; }
+    .about-badge {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--bg); padding: 10px 14px; border-radius: 8px;
+      font-size: 13px; font-weight: 600; color: var(--text);
+      border: 1px solid #d1fae5;
+    }
+    .about-badge i { color: var(--green); font-size: 16px; }
+
+    /* PROCESS */
+    .process-section {
+      background: linear-gradient(135deg, var(--primary), #065f46);
+      color: var(--white);
+    }
+    .process-section .section-tag { background: rgba(52,211,153,0.2); color: var(--emerald); }
+    .process-section .section-title { color: var(--white); }
+    .process-section .section-subtitle { color: rgba(255,255,255,0.65); }
+    .process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+    .process-card { text-align: center; }
+    .process-num {
+      width: 52px; height: 52px; border-radius: 50%;
+      background: var(--green); color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; font-weight: 800; margin: 0 auto 16px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .process-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+    .process-card p { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.6; }
+
+    /* CTA BANNER */
+    .cta-banner {
+      background: linear-gradient(135deg, var(--green), var(--teal));
+      text-align: center; color: var(--white); padding: 52px 20px;
+    }
+    .cta-banner h2 { font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 28px; margin-bottom: 10px; }
+    .cta-banner p { font-size: 16px; color: rgba(255,255,255,0.85); margin-bottom: 28px; }
+    .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+
+    /* PORTFOLIO */
+    .portfolio-section { background: var(--bg-alt); }
+    .portfolio-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .portfolio-item {
+      border-radius: var(--radius); overflow: hidden; aspect-ratio: 1;
+      position: relative; cursor: pointer;
+    }
+    .portfolio-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; display: block; }
+    .portfolio-item:hover img { transform: scale(1.05); }
+    .portfolio-item .p-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(transparent 50%, rgba(0,0,0,0.6));
+      display: flex; align-items: flex-end; padding: 14px;
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .portfolio-item:hover .p-overlay { opacity: 1; }
+    .portfolio-item .p-overlay span { color: white; font-size: 13px; font-weight: 600; }
+
+    /* TESTIMONIALS */
+    .testimonials-section { background: var(--white); }
+    .testimonial-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .testimonial-card {
+      background: var(--bg); border-radius: var(--radius); padding: 28px;
+      border: 1px solid #d1fae5;
+    }
+    .testimonial-stars { color: var(--amber); font-size: 16px; margin-bottom: 14px; letter-spacing: 2px; }
+    .testimonial-text { font-size: 14px; color: var(--text); line-height: 1.7; margin-bottom: 18px; }
+    .testimonial-author { font-size: 15px; font-weight: 700; color: var(--text); }
+    .testimonial-loc { font-size: 13px; color: var(--text-light); display: flex; align-items: center; gap: 4px; }
+    .testimonial-loc i { font-size: 12px; }
+
+    /* FAQ */
+    .faq-section { background: var(--bg-alt); }
+    .faq-list { max-width: 720px; margin: 0 auto; }
+    .faq-item { background: var(--white); border-radius: 10px; margin-bottom: 10px; border: 1px solid #e5e7eb; overflow: hidden; }
+    .faq-q {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 18px 20px; cursor: pointer; font-size: 15px; font-weight: 600;
+      color: var(--text); user-select: none; gap: 12px;
+    }
+    .faq-q:hover { color: var(--green); }
+    .faq-q i { font-size: 16px; transition: transform 0.3s; color: var(--text-light); }
+    .faq-item.open .faq-q i { transform: rotate(180deg); color: var(--green); }
+    .faq-a { padding: 0 20px 18px; font-size: 14px; color: var(--text-light); line-height: 1.7; display: none; }
+    .faq-item.open .faq-a { display: block; }
+
+    /* FOOTER */
+    .footer { background: var(--primary); color: rgba(255,255,255,0.7); padding: 40px 20px; }
+    .footer-inner { max-width: 600px; margin: 0 auto; text-align: center; }
+    .footer-logo { margin-bottom: 16px; }
+    .footer-logo img { height: 48px; border-radius: 8px; }
+    .footer p { font-size: 13px; margin-bottom: 6px; }
+    .footer a { color: var(--emerald); text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+    .footer-links { margin-top: 16px; display: flex; gap: 20px; justify-content: center; font-size: 13px; }
+    .footer-copy { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 12px; }
+    .footer-tcpa { margin-top: 12px; font-size: 11px; color: rgba(255,255,255,0.4); max-width: 500px; margin-left: auto; margin-right: auto; line-height: 1.5; }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      .hero { padding: 80px 12px 32px; }
+      .hero-inner { grid-template-columns: 1fr; gap: 24px; }
+      .hero h1 { font-size: 26px; }
+      .hero-sub { font-size: 15px; margin-bottom: 20px; }
+      .hero-text { text-align: center; }
+      .hero-badges { justify-content: center; }
+      .hero-ctas { justify-content: center; }
+      .header-cta { display: none; }
+      .header-banner { font-size: 12px; padding: 6px 10px; }
+      .header-inner { padding: 8px 12px; }
+      .header-logo img { height: 36px; }
+      .header-logo span { font-size: 13px; }
+      .header-phone { font-size: 13px; gap: 4px; }
+      .header-phone i { font-size: 14px; }
+      .lang-switch { padding: 5px 10px; font-size: 11px; gap: 4px; }
+      .header-right { gap: 8px; }
+      .form-card { max-width: 100%; margin: 0; border-radius: 12px; }
+      .form-top { padding: 14px 16px; }
+      .form-top h2 { font-size: 16px; }
+      .form-top p { font-size: 12px; }
+      .form-body { padding: 20px 16px; }
+      .step-indicator { font-size: 11px; }
+      .step-question { font-size: 17px; }
+      .step-helper { font-size: 13px; }
+      .name-row { grid-template-columns: 1fr; gap: 10px; }
+      .form-input { padding: 12px 14px; font-size: 16px; }
+      .btn-submit { padding: 14px; font-size: 16px; }
+      .btn-next { padding: 12px 20px; font-size: 15px; }
+      .btn-back { padding: 12px 16px; font-size: 14px; }
+      .funding-amount { font-size: 36px; }
+      .trust-strip { padding: 16px 12px; }
+      .trust-inner { gap: 16px; }
+      .trust-item .t-icon { width: 36px; height: 36px; font-size: 16px; }
+      .trust-item .t-label { font-size: 12px; }
+      .trust-item .t-sub { font-size: 11px; }
+      .section-title { font-size: 22px; }
+      .section-subtitle { font-size: 14px; }
+      .values-grid { grid-template-columns: 1fr; gap: 14px; }
+      .services-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+      .about-grid { grid-template-columns: 1fr; gap: 24px; }
+      .about-img img { height: 200px; }
+      .about-highlights { grid-template-columns: 1fr; gap: 8px; }
+      .process-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
+      .portfolio-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .testimonial-grid { grid-template-columns: 1fr; }
+      .service-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+      section { padding: 40px 12px; }
+      .cta-banner { padding: 32px 12px; }
+      .cta-banner h2 { font-size: 20px; }
+      .cta-banner p { font-size: 14px; }
+      .cta-row .btn { padding: 12px 20px; font-size: 14px; }
+      .faq-q { padding: 14px 16px; font-size: 14px; }
+      .faq-a { padding: 0 16px 14px; font-size: 13px; }
+      .footer { padding: 30px 12px; }
+      .footer-links { gap: 12px; font-size: 12px; flex-wrap: wrap; }
+    }
+
+    @media (max-width: 420px) {
+      .hero { padding: 72px 10px 28px; }
+      .hero h1 { font-size: 22px; }
+      .hero-sub { font-size: 14px; }
+      .hero-badge { font-size: 11px; padding: 4px 10px; }
+      .hero-ctas { flex-direction: column; align-items: center; }
+      .hero-ctas .btn { width: 100%; justify-content: center; }
+      .header-phone span { display: none; }
+      .process-grid { grid-template-columns: 1fr; }
+      .services-grid { grid-template-columns: 1fr; }
+      .option-grid.cols-2 { grid-template-columns: 1fr; }
+      .service-grid { grid-template-columns: 1fr; }
+      .portfolio-grid { grid-template-columns: 1fr; }
+      .trust-inner { flex-direction: column; gap: 12px; }
+      .funding-amount { font-size: 28px; }
+    }
+
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s, transform 0.6s; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-banner">
+    <strong>$500 Million in Government Funding</strong> &mdash; Check if your home qualifies for free energy upgrades
+  </div>
+  <div class="header-inner">
+    <a href="index.html" class="header-logo">
+      <img src="images/logo.png" alt="California Energy Savings Program">
+      <span>California Energy<br>Savings Program</span>
+    </a>
+    <div class="header-right">
+      <a href="tel:+18884804286" class="header-phone"><i class="bi bi-telephone-fill"></i> <span>(888) 480-4286</span></a>
+      <a href="es.html" class="lang-switch"><i class="bi bi-translate"></i> Espa&ntilde;ol</a>
+      <a href="#qualifyForm" class="header-cta" onclick="scrollToForm();return false;"><i class="bi bi-lightning-charge-fill"></i> Free Assessment</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-badges">
+        <span class="hero-badge"><i class="bi bi-shield-check"></i> Licensed &amp; Insured</span>
+        <span class="hero-badge"><i class="bi bi-cash-stack"></i> Zero Upfront Cost</span>
+        <span class="hero-badge"><i class="bi bi-building-fill-check"></i> Government Program</span>
+      </div>
+      <h1>See If You Qualify for <span>Free Energy Upgrades</span> for Your Home</h1>
+      <p class="hero-sub">$500 million in government funding to help California homeowners save on energy. Free assessment to check what upgrades you qualify for &mdash; solar, HVAC, insulation, windows &amp; more.</p>
+      <div class="hero-ctas">
+        <a href="#qualifyForm" class="btn btn-green" onclick="scrollToForm();return false;"><i class="bi bi-lightning-charge-fill"></i> Check My Eligibility</a>
+        <a href="tel:+18884804286" class="btn btn-outline-white"><i class="bi bi-telephone-fill"></i> Call (888) 480-4286</a>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="form-card" id="qualifyForm">
+      <div class="form-top">
+        <h2 id="formTitle"><i class="bi bi-lightning-charge-fill"></i> Free Energy Assessment</h2>
+        <p id="formSub">Check your eligibility in under 2 minutes</p>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+      <div class="form-body">
+
+        <!-- Step 1: Homeowner? -->
+        <div class="form-step active" id="step1">
+          <div class="step-indicator">Step 1 of 4</div>
+          <div class="step-question">Are you the homeowner?</div>
+          <div class="step-helper">Government programs are available to property owners</div>
+          <div class="option-grid cols-2">
+            <div class="option-btn" onclick="selectOwner(this, 'Yes')"><i class="bi bi-house-check-fill"></i> Yes, I own</div>
+            <div class="option-btn" onclick="selectOwner(this, 'No')"><i class="bi bi-house-slash"></i> No, I rent</div>
+          </div>
+          <div class="error-msg" id="step1Error">Please select an option</div>
+          <div class="form-actions">
+            <button class="btn-next" onclick="nextStep(1)">Continue <i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Step 2: ZIP -->
+        <div class="form-step" id="step2">
+          <div class="step-indicator">Step 2 of 4</div>
+          <div class="step-question">Where is your home located?</div>
+          <div class="step-helper">Enter your ZIP code to check local program availability</div>
+          <label style="font-size:13px;font-weight:600;color:var(--text);display:block;margin-bottom:6px;">ZIP Code <span style="color:#ef4444;">*</span></label>
+          <input type="text" class="form-input" id="zipCode" inputmode="numeric" pattern="[0-9]*" maxlength="5" placeholder="e.g. 91335" autocomplete="postal-code">
+          <div class="error-msg" id="zipError">Please enter a valid 5-digit California ZIP code</div>
+          <div id="zipArea" style="display:none;margin-top:10px;padding:10px 14px;background:#f0fdf4;border-radius:8px;font-size:14px;color:var(--green);font-weight:600;"><i class="bi bi-geo-alt-fill"></i> <span id="zipAreaText"></span></div>
+          <div class="form-actions">
+            <button class="btn-back" onclick="prevStep(2)"><i class="bi bi-arrow-left"></i> Back</button>
+            <button class="btn-next" onclick="nextStep(2)">Continue <i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Step 3: Services -->
+        <div class="form-step" id="step3">
+          <div class="step-indicator">Step 3 of 4</div>
+          <div class="step-question">Which upgrades interest you?</div>
+          <div class="step-helper">Select all that apply &mdash; most homes qualify for multiple upgrades</div>
+          <div class="service-grid" id="serviceGrid">
+            <div class="service-chip" data-service="Solar Panels" onclick="toggleService(this)">
+              <i class="bi bi-sun-fill chip-icon"></i> Solar Panels <span class="chip-check"></span>
+            </div>
+            <div class="service-chip" data-service="HVAC" onclick="toggleService(this)">
+              <i class="bi bi-thermometer-half chip-icon"></i> HVAC / AC <span class="chip-check"></span>
+            </div>
+            <div class="service-chip" data-service="Insulation" onclick="toggleService(this)">
+              <i class="bi bi-bricks chip-icon"></i> Insulation <span class="chip-check"></span>
+            </div>
+            <div class="service-chip" data-service="Windows" onclick="toggleService(this)">
+              <i class="bi bi-window chip-icon"></i> Windows <span class="chip-check"></span>
+            </div>
+            <div class="service-chip" data-service="Roofing" onclick="toggleService(this)">
+              <i class="bi bi-house-door chip-icon"></i> Roofing <span class="chip-check"></span>
+            </div>
+            <div class="service-chip" data-service="Water Heater" onclick="toggleService(this)">
+              <i class="bi bi-droplet-half chip-icon"></i> Water Heater <span class="chip-check"></span>
+            </div>
+            <div class="service-chip" data-service="Exterior Paint" onclick="toggleService(this)">
+              <i class="bi bi-paint-bucket chip-icon"></i> Exterior Paint <span class="chip-check"></span>
+            </div>
+            <div class="service-chip" data-service="Landscaping" onclick="toggleService(this)">
+              <i class="bi bi-tree chip-icon"></i> Landscaping <span class="chip-check"></span>
+            </div>
+          </div>
+          <div class="error-msg" id="step3Error">Please select at least one upgrade</div>
+          <div class="form-actions">
+            <button class="btn-back" onclick="prevStep(3)"><i class="bi bi-arrow-left"></i> Back</button>
+            <button class="btn-next" onclick="nextStep(3)">Continue <i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- Step 4: Contact -->
+        <div class="form-step" id="step4">
+          <div class="step-indicator">Step 4 of 4</div>
+          <div class="step-question">Almost done! Get your free assessment</div>
+          <div class="step-helper">A program specialist will contact you within 24 hours</div>
+          <div class="name-row">
+            <input type="text" class="form-input" id="firstName" placeholder="First name *" autocomplete="given-name">
+            <input type="text" class="form-input" id="lastName" placeholder="Last name" autocomplete="family-name">
+          </div>
+          <input type="tel" class="form-input" id="phone" placeholder="Phone number *" autocomplete="tel" style="margin-bottom:12px;" inputmode="tel">
+          <input type="email" class="form-input" id="email" placeholder="Email address" autocomplete="email" style="margin-bottom:12px;">
+          <input type="text" class="form-input" id="address" placeholder="Home address (optional)" autocomplete="street-address">
+          <div class="error-msg" id="step4Error">Please enter your name and phone number</div>
+
+          <!-- TCPA Consent -->
+          <div class="consent">
+            <input type="checkbox" id="consentCheck">
+            <label for="consentCheck">By checking this box, I consent to receive calls and text messages (including by autodialer and prerecorded voice) from California Energy Savings Program and its partners at the phone number provided above regarding home energy assessments and related services. I understand that my consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to opt out. <a href="privacy.html" target="_blank">Privacy Policy</a> &amp; <a href="terms.html" target="_blank">Terms of Service</a>.</label>
+          </div>
+          <div class="tcpa-disclosure">
+            By submitting this form, you agree to our <a href="terms.html" target="_blank" style="color:var(--green);">Terms of Service</a> and <a href="privacy.html" target="_blank" style="color:var(--green);">Privacy Policy</a>. You authorize California Energy Savings Program, Patagon Consulting Inc. (CSLB #1135440), and its affiliates to contact you by phone, text, or email at the contact information provided, including through automated technology. You may revoke consent at any time.
+          </div>
+          <button class="btn-submit" id="submitBtn" onclick="submitForm()" disabled><i class="bi bi-check-circle"></i> Check My Eligibility</button>
+        </div>
+
+        <!-- Success -->
+        <div class="form-success" id="formSuccess">
+          <div class="success-check"><i class="bi bi-check-lg"></i></div>
+          <h3>You May Qualify!</h3>
+          <p>Thank you! Based on your information, you may be eligible for government-funded energy upgrades. A program specialist will contact you within 24 hours to schedule your free home assessment.</p>
+          <a href="tel:+18884804286" class="success-phone"><i class="bi bi-telephone-fill"></i> Call Now &mdash; (888) 480-4286</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-inner">
+    <div class="trust-item">
+      <span class="t-icon green"><i class="bi bi-shield-lock-fill"></i></span>
+      <div><div class="t-label">Licensed &amp; Insured</div><div class="t-sub">CSLB #1135440</div></div>
+    </div>
+    <div class="trust-item">
+      <span class="t-icon amber"><i class="bi bi-cash-stack"></i></span>
+      <div><div class="t-label">$500M in Funding</div><div class="t-sub">Government program</div></div>
+    </div>
+    <div class="trust-item">
+      <span class="t-icon blue"><i class="bi bi-lightning-charge-fill"></i></span>
+      <div><div class="t-label">Save Up to $200/mo</div><div class="t-sub">On energy bills</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- FUNDING BANNER -->
+<div class="funding-banner fade-in">
+  <div class="funding-inner">
+    <div class="funding-amount">$500,000,000</div>
+    <div class="funding-label">In Government Funding for California Homeowners</div>
+    <div class="funding-sub">Available for energy-efficient home upgrades &mdash; find out what you qualify for today</div>
+  </div>
+</div>
+
+<!-- VALUE PROPOSITIONS -->
+<section class="values-section fade-in">
+  <div class="section-inner text-center">
+    <span class="section-tag"><i class="bi bi-star-fill"></i> Why This Program</span>
+    <h2 class="section-title">Save Money While Upgrading Your Home</h2>
+    <p class="section-subtitle mx-auto">Government-backed initiative helping California homeowners reduce energy costs with modern, efficient upgrades</p>
+  </div>
+  <div class="section-inner">
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="v-icon green"><i class="bi bi-cash-stack"></i></div>
+        <h3>Zero Upfront Costs</h3>
+        <p>Qualified homeowners pay nothing out of pocket. The program covers the cost of eligible energy upgrades for your home.</p>
+      </div>
+      <div class="value-card">
+        <div class="v-icon amber"><i class="bi bi-lightning-charge-fill"></i></div>
+        <h3>Lower Monthly Bills</h3>
+        <p>Energy-efficient upgrades can reduce your monthly utility bills by $100&ndash;$200+ depending on your home and current systems.</p>
+      </div>
+      <div class="value-card">
+        <div class="v-icon blue"><i class="bi bi-house-heart-fill"></i></div>
+        <h3>Increase Home Value</h3>
+        <p>Modern energy systems, new windows, insulation, and solar panels significantly increase your property's market value.</p>
+      </div>
+      <div class="value-card">
+        <div class="v-icon teal"><i class="bi bi-clipboard-check-fill"></i></div>
+        <h3>We Handle Everything</h3>
+        <p>From eligibility check and application to installation and final inspection &mdash; our licensed team manages the entire process.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section fade-in">
+  <div class="section-inner text-center">
+    <span class="section-tag"><i class="bi bi-tools"></i> Eligible Upgrades</span>
+    <h2 class="section-title">Energy Upgrades You May Qualify For</h2>
+    <p class="section-subtitle mx-auto">Most homes qualify for multiple upgrades &mdash; our assessment determines the best combination for maximum savings</p>
+  </div>
+  <div class="section-inner">
+    <div class="services-grid">
+      <div class="svc-card">
+        <div class="svc-icon"><i class="bi bi-sun-fill"></i></div>
+        <h3>Solar Panels</h3>
+        <p>Reduce or eliminate your electricity bill with solar energy</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="bi bi-thermometer-half"></i></div>
+        <h3>HVAC Systems</h3>
+        <p>High-efficiency heating &amp; cooling for year-round comfort</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="bi bi-bricks"></i></div>
+        <h3>Insulation</h3>
+        <p>Keep your home cooler in summer &amp; warmer in winter</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="bi bi-window-stack"></i></div>
+        <h3>Windows</h3>
+        <p>Energy-efficient dual-pane windows that cut heat transfer</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="bi bi-house-door"></i></div>
+        <h3>Roofing</h3>
+        <p>Cool-roof technology to reflect heat and protect your home</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="bi bi-droplet-half"></i></div>
+        <h3>Water Heaters</h3>
+        <p>Tankless systems that heat water on demand and save energy</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="bi bi-paint-bucket"></i></div>
+        <h3>Exterior Paint</h3>
+        <p>Reflective coating to improve insulation and curb appeal</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon"><i class="bi bi-tree"></i></div>
+        <h3>Landscaping</h3>
+        <p>Strategic landscaping that reduces energy consumption</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section fade-in">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-img">
+        <!-- PLACEHOLDER: Replace with team/work photo -->
+        <img src="images/about-team.jpg" alt="Our team performing a home energy assessment" loading="lazy">
+      </div>
+      <div>
+        <span class="section-tag"><i class="bi bi-info-circle-fill"></i> About the Program</span>
+        <h2 class="section-title">A Once-in-a-Lifetime Opportunity for California Homeowners</h2>
+        <p style="font-size:15px;color:var(--text-light);line-height:1.7;margin-bottom:8px;">The California Energy Savings Program connects homeowners with government-funded energy efficiency upgrades. With $500 million in available funding, qualified homeowners can receive upgrades at zero upfront cost.</p>
+        <p style="font-size:15px;color:var(--text-light);line-height:1.7;">Our licensed and insured team handles every step &mdash; from the initial free assessment and application to professional installation and final inspection. We've helped thousands of California families reduce their energy bills and improve their homes.</p>
+        <div class="about-highlights">
+          <div class="about-badge"><i class="bi bi-clock-history"></i> 25+ Years Experience</div>
+          <div class="about-badge"><i class="bi bi-shield-check"></i> CSLB #1135440</div>
+          <div class="about-badge"><i class="bi bi-cash-stack"></i> $0 Upfront Cost</div>
+          <div class="about-badge"><i class="bi bi-people-fill"></i> 1000+ Homes Upgraded</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-section fade-in">
+  <div class="section-inner text-center">
+    <span class="section-tag"><i class="bi bi-list-ol"></i> How It Works</span>
+    <h2 class="section-title">4 Simple Steps to Lower Energy Bills</h2>
+    <p class="section-subtitle mx-auto">We handle everything &mdash; you just enjoy the savings</p>
+  </div>
+  <div class="section-inner">
+    <div class="process-grid">
+      <div class="process-card">
+        <div class="process-num">1</div>
+        <h3>Free Assessment</h3>
+        <p>We visit your home to evaluate which energy upgrades you qualify for at no cost to you</p>
+      </div>
+      <div class="process-card">
+        <div class="process-num">2</div>
+        <h3>Application</h3>
+        <p>We handle all paperwork and submit your application to the government program</p>
+      </div>
+      <div class="process-card">
+        <div class="process-num">3</div>
+        <h3>Custom Plan</h3>
+        <p>Design the right combination of upgrades for maximum energy savings in your home</p>
+      </div>
+      <div class="process-card">
+        <div class="process-num">4</div>
+        <h3>Installation</h3>
+        <p>Our licensed crew completes all upgrades with a final inspection and warranty</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MID CTA -->
+<div class="cta-banner fade-in">
+  <h2>Don't Miss Out on Government-Funded Energy Upgrades</h2>
+  <p>Funding is limited &mdash; check your eligibility today before the program closes</p>
+  <div class="cta-row">
+    <a href="#qualifyForm" class="btn btn-white" onclick="scrollToForm();return false;"><i class="bi bi-lightning-charge-fill"></i> Check Eligibility Now</a>
+    <a href="tel:+18884804286" class="btn btn-outline-white"><i class="bi bi-telephone-fill"></i> Call (888) 480-4286</a>
+  </div>
+</div>
+
+<!-- PORTFOLIO -->
+<section class="portfolio-section fade-in">
+  <div class="section-inner text-center">
+    <span class="section-tag"><i class="bi bi-images"></i> Our Work</span>
+    <h2 class="section-title">Homes We've Upgraded Across California</h2>
+    <p class="section-subtitle mx-auto">Real projects completed through the energy savings program</p>
+  </div>
+  <div class="section-inner">
+    <div class="portfolio-grid">
+      <!-- PLACEHOLDER: Replace with actual project photos -->
+      <div class="portfolio-item">
+        <img src="images/project-01.jpg" alt="Solar panel installation" loading="lazy">
+        <div class="p-overlay"><span><i class="bi bi-sun-fill"></i> Solar Installation</span></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project-02.jpg" alt="HVAC system upgrade" loading="lazy">
+        <div class="p-overlay"><span><i class="bi bi-thermometer-half"></i> HVAC Upgrade</span></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project-03.jpg" alt="Window replacement" loading="lazy">
+        <div class="p-overlay"><span><i class="bi bi-window"></i> New Windows</span></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project-04.jpg" alt="Roofing project" loading="lazy">
+        <div class="p-overlay"><span><i class="bi bi-house-door"></i> Cool Roof</span></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project-05.jpg" alt="Insulation installation" loading="lazy">
+        <div class="p-overlay"><span><i class="bi bi-bricks"></i> Insulation</span></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project-06.jpg" alt="Water heater installation" loading="lazy">
+        <div class="p-overlay"><span><i class="bi bi-droplet-half"></i> Water Heater</span></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project-07.jpg" alt="Exterior painting" loading="lazy">
+        <div class="p-overlay"><span><i class="bi bi-paint-bucket"></i> Exterior Paint</span></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project-08.jpg" alt="Complete home upgrade" loading="lazy">
+        <div class="p-overlay"><span><i class="bi bi-house-heart"></i> Full Upgrade</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section fade-in">
+  <div class="section-inner text-center">
+    <span class="section-tag"><i class="bi bi-chat-quote-fill"></i> Testimonials</span>
+    <h2 class="section-title">What Homeowners Are Saying</h2>
+    <p class="section-subtitle mx-auto">Real savings from families who completed the program</p>
+  </div>
+  <div class="section-inner">
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+        <div class="testimonial-text">"They came out for a free assessment and we qualified for solar panels, new HVAC, and insulation. Our electricity bill went from $280 to under $80 a month. I can't believe we almost didn't do it."</div>
+        <div class="testimonial-author">Maria G.</div>
+        <div class="testimonial-loc"><i class="bi bi-geo-alt-fill"></i> Los Angeles, CA</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+        <div class="testimonial-text">"The whole process was easy. They handled all the paperwork, the installation was professional, and we didn't pay anything upfront. Now we're saving over $200 per month on energy costs."</div>
+        <div class="testimonial-author">David R.</div>
+        <div class="testimonial-loc"><i class="bi bi-geo-alt-fill"></i> San Diego, CA</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+        <div class="testimonial-text">"I was skeptical at first, but the assessment was truly free with no pressure. We ended up qualifying for new windows and insulation. Our house is so much more comfortable now and our bills are lower."</div>
+        <div class="testimonial-author">Patricia L.</div>
+        <div class="testimonial-loc"><i class="bi bi-geo-alt-fill"></i> Riverside, CA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section fade-in">
+  <div class="section-inner text-center">
+    <span class="section-tag"><i class="bi bi-question-circle-fill"></i> FAQ</span>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+  </div>
+  <div class="section-inner">
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How do I know if I qualify for the program? <i class="bi bi-chevron-down"></i></div>
+        <div class="faq-a">Eligibility depends on factors like homeownership, property age, current energy systems, and location. Our free assessment evaluates your home and determines what programs and upgrades you qualify for &mdash; there's no cost or obligation.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Is the assessment really free? <i class="bi bi-chevron-down"></i></div>
+        <div class="faq-a">Yes, the home energy assessment is 100% free with no strings attached. A specialist visits your home, evaluates your current systems, and lets you know what upgrades you qualify for. Nothing is done unless you decide to move forward.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Do I have to pay anything upfront? <i class="bi bi-chevron-down"></i></div>
+        <div class="faq-a">Qualified homeowners can receive upgrades with zero upfront cost through the government program. The specifics depend on your eligibility and the upgrades your home qualifies for, which we'll explain during the assessment.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What types of upgrades are covered? <i class="bi bi-chevron-down"></i></div>
+        <div class="faq-a">Eligible upgrades include solar panels, HVAC systems, insulation, energy-efficient windows, tankless water heaters, roofing, exterior paint, and landscaping. Most homes qualify for multiple upgrades.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How long does the process take? <i class="bi bi-chevron-down"></i></div>
+        <div class="faq-a">The assessment takes about 30&ndash;45 minutes. If you qualify, the application is processed within 2&ndash;3 weeks. Installation timelines vary by project but most upgrades are completed within 4&ndash;6 weeks of approval.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">I already have a contractor &mdash; why should I use this program? <i class="bi bi-chevron-down"></i></div>
+        <div class="faq-a">This gives you a second opinion and lets you know if government programs could help cover costs for your energy upgrades. You may be leaving money on the table without even knowing it.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<div class="cta-banner fade-in">
+  <h2>Start Saving on Your Energy Bills Today</h2>
+  <p>Free eligibility check &mdash; $500 million in funding available for California homeowners</p>
+  <div class="cta-row">
+    <a href="#qualifyForm" class="btn btn-white" onclick="scrollToForm();return false;"><i class="bi bi-lightning-charge-fill"></i> Check My Eligibility</a>
+    <a href="tel:+18884804286" class="btn btn-outline-white"><i class="bi bi-telephone-fill"></i> Call (888) 480-4286</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo"><img src="images/logo.png" alt="California Energy Savings Program"></div>
+    <p><strong>California Energy Savings Program</strong></p>
+    <p>Patagon Consulting Inc. &bull; CSLB License #1135440</p>
+    <p>18546 Sherman Way, Suite 103, Reseda, CA 91335</p>
+    <p style="margin-top:10px;">
+      <a href="tel:+18884804286"><i class="bi bi-telephone-fill"></i> (888) 480-4286</a> &bull;
+      <a href="mailto:info@caenergysavings.com"><i class="bi bi-envelope-fill"></i> info@caenergysavings.com</a>
+    </p>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+    <div class="footer-tcpa">
+      By using this website, you consent to our Privacy Policy and Terms of Service. California Energy Savings Program is a service of Patagon Consulting Inc., a licensed general contractor (CSLB #1135440). We help homeowners connect with government-funded energy efficiency programs. Program availability and eligibility requirements are subject to change.
+    </div>
+    <div class="footer-copy">&copy; 2026 California Energy Savings Program. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  // ===== ZIP AREA LOOKUP =====
+  var ZIP_AREAS = {
+    '900':'Los Angeles','901':'Los Angeles','902':'Inglewood','903':'Inglewood',
+    '904':'Santa Monica','905':'Torrance','906':'Long Beach','907':'San Pedro',
+    '908':'Long Beach','910':'Pasadena','911':'Pasadena','912':'Glendale',
+    '913':'Van Nuys / Reseda / Northridge','914':'Sherman Oaks / Encino / Tarzana',
+    '915':'Burbank','916':'North Hollywood','917':'Industry','918':'Alhambra / Arcadia',
+    '919':'West Covina','920':'San Diego','921':'San Diego','922':'Escondido',
+    '923':'San Bernardino','924':'San Bernardino','925':'Riverside','926':'Orange County',
+    '927':'Santa Ana / Anaheim','928':'Anaheim / Irvine','930':'Oxnard / Ventura',
+    '931':'Santa Barbara','932':'Bakersfield','933':'Bakersfield','934':'Santa Barbara',
+    '935':'Mojave / Lancaster','936':'Fresno','937':'Fresno','938':'Fresno',
+    '939':'Salinas','940':'San Francisco','941':'San Francisco','942':'Sacramento',
+    '943':'Sacramento','944':'San Mateo','945':'Oakland','946':'Oakland',
+    '947':'Berkeley','948':'Richmond','949':'San Rafael','950':'San Jose',
+    '951':'Riverside / Moreno Valley','952':'Stockton','953':'Stockton',
+    '954':'Santa Rosa','955':'Eureka','956':'Sacramento','957':'Sacramento',
+    '958':'Sacramento','959':'Marysville','960':'Redding','961':'Reno, NV'
+  };
+
+  function getZipArea(zip) {
+    var prefix = zip.substring(0, 3);
+    return ZIP_AREAS[prefix] || null;
+  }
+
+  // ===== URL PARAMS & TRACKING =====
+  var params = new URLSearchParams(window.location.search);
+  var gclid = params.get('gclid') || '';
+  var utmSource = params.get('utm_source') || '';
+  var utmMedium = params.get('utm_medium') || '';
+  var utmCampaign = params.get('utm_campaign') || '';
+  var utmContent = params.get('utm_content') || '';
+  var utmTerm = params.get('utm_term') || '';
+
+  if (gclid) sessionStorage.setItem('cesp_gclid', gclid);
+  else gclid = sessionStorage.getItem('cesp_gclid') || '';
+
+  // ===== FORM STATE =====
+  var currentStep = 1;
+  var totalSteps = 4;
+  var formData = { homeowner: '', zip: '', zipArea: '', services: [], firstName: '', lastName: '', phone: '', email: '', address: '' };
+
+  function showStep(n) {
+    for (var i = 1; i <= totalSteps; i++) document.getElementById('step' + i).classList.remove('active');
+    document.getElementById('step' + n).classList.add('active');
+    document.getElementById('progressFill').style.width = Math.round(n * (100 / totalSteps)) + '%';
+    currentStep = n;
+  }
+
+  // Homeowner selector
+  function selectOwner(el, val) {
+    document.querySelectorAll('#step1 .option-btn').forEach(function(b) { b.classList.remove('selected'); });
+    el.classList.add('selected');
+    formData.homeowner = val;
+    document.getElementById('step1Error').style.display = 'none';
+  }
+
+  // ZIP area live lookup
+  document.getElementById('zipCode').addEventListener('input', function() {
+    var zip = this.value.trim();
+    var areaEl = document.getElementById('zipArea');
+    if (zip.length === 5 && /^\d{5}$/.test(zip)) {
+      var area = getZipArea(zip);
+      if (area) {
+        document.getElementById('zipAreaText').textContent = area + ', CA — Program available in your area!';
+        areaEl.style.display = 'block';
+        areaEl.style.background = '#f0fdf4'; areaEl.style.color = 'var(--green)';
+      } else if (zip.charAt(0) === '9') {
+        document.getElementById('zipAreaText').textContent = 'California — Program available in your area!';
+        areaEl.style.display = 'block';
+        areaEl.style.background = '#f0fdf4'; areaEl.style.color = 'var(--green)';
+      } else {
+        document.getElementById('zipAreaText').textContent = 'This program is for California residents. A specialist will verify availability.';
+        areaEl.style.display = 'block';
+        areaEl.style.background = '#fef3c7'; areaEl.style.color = '#92400e';
+      }
+    } else {
+      areaEl.style.display = 'none';
+    }
+  });
+
+  function nextStep(from) {
+    if (from === 1) {
+      if (!formData.homeowner) { document.getElementById('step1Error').style.display = 'block'; return; }
+      document.getElementById('step1Error').style.display = 'none';
+    }
+    if (from === 2) {
+      var zip = document.getElementById('zipCode').value.trim();
+      if (!/^\d{5}$/.test(zip)) {
+        document.getElementById('zipCode').classList.add('error');
+        document.getElementById('zipError').style.display = 'block';
+        return;
+      }
+      document.getElementById('zipCode').classList.remove('error');
+      document.getElementById('zipError').style.display = 'none';
+      formData.zip = zip;
+      formData.zipArea = getZipArea(zip) || 'California';
+    }
+    if (from === 3) {
+      var sel = document.querySelectorAll('#serviceGrid .selected');
+      if (sel.length === 0) { document.getElementById('step3Error').style.display = 'block'; return; }
+      document.getElementById('step3Error').style.display = 'none';
+      formData.services = [];
+      sel.forEach(function(el) { formData.services.push(el.getAttribute('data-service')); });
+    }
+    showStep(from + 1);
+    document.getElementById('qualifyForm').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function prevStep(from) { showStep(from - 1); }
+  function toggleService(el) { el.classList.toggle('selected'); }
+  function scrollToForm() { document.getElementById('qualifyForm').scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+
+  // Enable/disable submit based on consent checkbox
+  document.getElementById('consentCheck').addEventListener('change', function() {
+    document.getElementById('submitBtn').disabled = !this.checked;
+  });
+
+  // ===== SUBMIT =====
+  var CRM_WEBHOOK = 'https://patagon-crm.onrender.com/api/webhooks/lead';
+
+  async function submitForm() {
+    var fn = document.getElementById('firstName').value.trim();
+    var ln = document.getElementById('lastName').value.trim();
+    var ph = document.getElementById('phone').value.trim();
+    var em = document.getElementById('email').value.trim();
+    var addr = document.getElementById('address').value.trim();
+
+    if (!fn || !ph) {
+      document.getElementById('step4Error').style.display = 'block';
+      if (!fn) document.getElementById('firstName').classList.add('error');
+      if (!ph) document.getElementById('phone').classList.add('error');
+      return;
+    }
+    if (!document.getElementById('consentCheck').checked) {
+      alert('Please agree to the consent to proceed.');
+      return;
+    }
+    document.getElementById('step4Error').style.display = 'none';
+    document.getElementById('firstName').classList.remove('error');
+    document.getElementById('phone').classList.remove('error');
+
+    formData.firstName = fn;
+    formData.lastName = ln;
+    formData.phone = ph;
+    formData.email = em;
+    formData.address = addr;
+
+    var btn = document.getElementById('submitBtn');
+    btn.disabled = true;
+    btn.innerHTML = '<i class="bi bi-hourglass-split"></i> Checking...';
+
+    var payload = {
+      first_name: formData.firstName,
+      last_name: formData.lastName || null,
+      phone: formData.phone,
+      email: formData.email || null,
+      address: formData.address || null,
+      zip: formData.zip,
+      is_homeowner: formData.homeowner,
+      project_type: formData.services.join(', ') || 'Energy Efficiency',
+      source: utmSource ? ('CESP - ' + (utmCampaign || 'Web')) : 'CESP Web',
+      form_name: 'CESP Eligibility Check',
+      campaign: utmCampaign || 'CESP Web',
+      notes: 'Homeowner: ' + formData.homeowner + ' | Area: ' + formData.zipArea + ' | Upgrades: ' + formData.services.join(', '),
+      gclid: gclid || null,
+      utm_source: utmSource || null,
+      utm_medium: utmMedium || null,
+      utm_campaign: utmCampaign || null,
+      utm_content: utmContent || null,
+      utm_term: utmTerm || null,
+      tcpa_consent: true,
+      tcpa_timestamp: new Date().toISOString(),
+      tcpa_text: 'Consented to receive calls and texts from California Energy Savings Program regarding home energy assessments.'
+    };
+
+    try {
+      var response = await fetch(CRM_WEBHOOK, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (response.ok) {
+        document.getElementById('step4').classList.remove('active');
+        document.getElementById('formSuccess').style.display = 'block';
+        document.getElementById('formTitle').innerHTML = '<i class="bi bi-check-circle-fill"></i> Assessment Submitted';
+        document.getElementById('formSub').textContent = 'Thank you, ' + formData.firstName + '!';
+        document.getElementById('progressFill').style.width = '100%';
+      } else { throw new Error('Server error'); }
+    } catch (err) {
+      alert('Something went wrong. Please call us directly at (888) 480-4286.');
+      btn.disabled = false;
+      btn.innerHTML = '<i class="bi bi-check-circle"></i> Check My Eligibility';
+    }
+  }
+
+  // ===== FAQ =====
+  function toggleFaq(el) { el.parentElement.classList.toggle('open'); }
+
+  // ===== FADE IN =====
+  var fadeEls = document.querySelectorAll('.fade-in');
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) { entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+      });
+    }, { threshold: 0.1 });
+    fadeEls.forEach(function(el) { obs.observe(el); });
+  } else { fadeEls.forEach(function(el) { el.classList.add('visible'); }); }
+
+  // ===== ENTER KEY =====
+  document.getElementById('zipCode').addEventListener('keydown', function(e) { if (e.key === 'Enter') { e.preventDefault(); nextStep(2); } });
+  document.getElementById('phone').addEventListener('keydown', function(e) { if (e.key === 'Enter') { e.preventDefault(); submitForm(); } });
+  document.getElementById('email').addEventListener('keydown', function(e) { if (e.key === 'Enter') { e.preventDefault(); submitForm(); } });
+
+  // ===== PHONE FORMATTING =====
+  document.getElementById('phone').addEventListener('input', function(e) {
+    var x = e.target.value.replace(/\D/g, '').substring(0, 10);
+    if (x.length > 6) e.target.value = '(' + x.substring(0,3) + ') ' + x.substring(3,6) + '-' + x.substring(6);
+    else if (x.length > 3) e.target.value = '(' + x.substring(0,3) + ') ' + x.substring(3);
+    else if (x.length > 0) e.target.value = '(' + x;
+    else e.target.value = '';
+  });
+</script>
+
+</body>
+</html>
